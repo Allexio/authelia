@@ -62,7 +62,7 @@ identity_providers:
         require_pkce: false
         pkce_challenge_method: ''
         redirect_uris:
-          - 'http://gramps.{{< sitevar name="domain" nojs="example.com" >}}/api/oidc/callback/?provider=custom'
+          - 'https://gramps.{{< sitevar name="domain" nojs="example.com" >}}/api/oidc/callback/?provider=custom'
         scopes:
           - 'openid'
           - 'profile'
